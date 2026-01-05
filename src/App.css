@@ -412,7 +412,7 @@
   }
 }
 
-/* clickable brand (if not already there) */
+/* clickable brand */
 .clickable-brand {
   cursor: pointer;
 }
