@@ -48,6 +48,7 @@ zuno/
 ```bash
 npm install
 npm run dev
+```bash
 
 ### Backend
 ``bash
