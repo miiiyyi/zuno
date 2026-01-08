@@ -30,17 +30,21 @@ ZUNO focuses on a clean, student-friendly interface for browsing and saving loca
 
 ## Project Structure
 
+```text
 zuno/
 ├── backend/
-│   ├── server.js
-│   ├── db.js
-│   ├── scripts/seed.js
-│   └── zuno.sqlite
+│   ├── server.js        # Express API server
+│   ├── db.js            # SQLite database setup
+│   ├── scripts/
+│   │   └── seed.js      # Generates demo coupon data
+│   └── zuno.sqlite      # SQLite database file
 ├── src/
-│   ├── components/
-│   ├── pages/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # App pages (Search, Dashboard)
 │   └── App.jsx
+├── public/
 └── README.md
+```
 
 ## Getting Started
 
@@ -48,15 +52,15 @@ zuno/
 ```bash
 npm install
 npm run dev
-```bash
+```
 
 ### Backend
-``bash
+```bash
 cd backend
 npm install
 npm run seed
 npm start
-
+```
 ## Notes
 
 - Coupon data is generated demo data.
